@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body {
+    font-family: Montserrat;
+}
+
+.header-footer {
+    background-color: rgb(56, 199, 199);
+    padding: 10px;
+    list-style: none;
+    border-radius: 5px;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-right: 20px;
+    font-family: Montserrat;
+
+}
+
+.main-header {
+    text-align: center;
+}
+
+.header-footer>a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-footer>a:hover {
+    color: green;
+}
